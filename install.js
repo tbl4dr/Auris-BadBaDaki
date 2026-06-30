@@ -1,14 +1,5 @@
 module.exports = {
   run: [
-  // {
-  //   method: "shell.run",
-  //   params: {
-  //     message: [
-  //       "git clone https://github.com/stitionai/devika app",
-  //     ]
-  //   }
-  // },
-
   {
     method: "shell.run",
     params: {
@@ -48,16 +39,6 @@ module.exports = {
     message: "python -m spacy download en_core_web_sm",
   }
   }, 
-
-  // {
-  // method: "shell.run",
-  // params: {
-  //   venv: "env",
-  //   path: "app",
-  //   message: "python reader/setup.py",
-  // }
-  // }, 
-
   {
     method: "notify",
     params: {

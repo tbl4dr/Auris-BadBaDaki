@@ -4,7 +4,7 @@ const path = require('path')
 module.exports = {
   version: "0.4",
   title: "Auris BadBaDaki",
-  "description": "Offline audiobook reader for EPUB, PDF, and TXT with local OmniVoice TTS, character-aware voices, per-book narrator control, and synced text highlighting.\nEverything runs locally after setup. No API keys. No hosted TTS dependency.",
+  "description": "Auris-BadBaDaki is Offline audiobook reader for EPUB, PDF, and TXT with local OmniVoice TTS, character-aware voices, per-book narrator control, and synced text highlighting.\nEverything runs locally after setup. No API keys. No hosted TTS dependency.",
   icon: "icon.png",
   menu: async (kernel, info) => {
     // Check running states

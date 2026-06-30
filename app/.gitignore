@@ -1,5 +1,5 @@
 # ── Model weights (never commit large binaries) ────────────────────────────────
-model_backup/
+# model_backup/
 *.safetensors
 *.bin
 *.pt

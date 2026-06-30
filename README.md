@@ -21,7 +21,7 @@ The OmniVoice weights are not bundled with this repository.
 You can either:
 
 - Download them from the Settings page using the built-in Hugging Face downloader.
-- Point Settings at an existing local OmniVoice model directory [app/model_backup/OmniVoice].
+- Point Settings [TOP,RIGHT] at an existing local OmniVoice model directory [app/model_backup/OmniVoice].
 
 The model directory must contain the files OmniVoice expects, such as `config.json` and model weights.
 

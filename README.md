@@ -7,7 +7,7 @@ One-click (Pinokio) installer:
 Get started instantly with [Pinokio App] (https://pinokio.computer/)
 
 1. Open Pinokio
-2. Click **Explorer** and Search this URL:
+2. Click **Explorer** and Search this:
    ```
    Auris-BadBaDaki
    ```

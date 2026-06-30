@@ -1,6 +1,6 @@
 <div align="center">
   <img src="icon.png" width="180" alt="Auris-BadBaDaki" />
-  <h1 align="center">Auris-BadBaDaki</h1>
+  <!-- <h1 align="center">Auris-BadBaDaki</h1> -->
   <!-- <h4 align="center">Offline audiobook reader.</h4> -->
 </div>
 <br>

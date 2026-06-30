@@ -1,0 +1,15 @@
+{
+  "model_source": "local",
+  "model_path": "E:\\pinokio\\api\\auris-test\\app\\model_backup\\OmniVoice",
+  "model_repo": "k2-fsa/OmniVoice",
+  "hf_endpoint": "",
+  "narrator_instruct": "male, elderly, low pitch, british accent",
+  "single_narrator_mode": false,
+  "default_speed": 1.0,
+  "audio_format": "wav",
+  "subtitle_format": "ass",
+  "theme": "night",
+  "font_size": 18,
+  "font_family": "serif",
+  "line_height": 1.9
+}

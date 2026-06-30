@@ -32,3 +32,21 @@ The model directory must contain the files OmniVoice expects, such as `config.js
 3. Open Voice Studio from the reader sidebar.
 4. Adjust character voices or the narrator voice, preview them, then save.
 5. Export audio or subtitles if needed.
+
+
+## Voice design caveats
+
+OmniVoice does not produce clean output for every voice-design combination. The upstream docs note that some attribute mixes are unreliable, especially without reference audio.
+
+The most fragile cases are youth voices with extreme pitch settings. For example, combinations like `male, teenager, very high pitch, american accent` can degrade into squeaks, bursts, or static instead of intelligible speech.
+
+Auris now tries to stabilize some known-bad combinations during preview and playback by relaxing them to a nearby voice design, but this is still a model limitation, not something the UI can fully solve.
+
+Best results:
+
+- Prefer `young adult` over `teenager` when you do not have reference audio.
+- Avoid `very high pitch` and `very low pitch` on `child` and `teenager` voices.
+- Upload a clean WAV reference when you need a specific youthful voice.
+- Preview before saving.
+
+Reference: `https://github.com/k2-fsa/OmniVoice/blob/master/docs/voice-design.md`

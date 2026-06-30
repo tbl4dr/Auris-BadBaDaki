@@ -7,7 +7,7 @@ module.exports = {
   }, {
     method: "fs.rm",
     params: {
-      path: "app"
+      path: "env"
     }
 
   }]

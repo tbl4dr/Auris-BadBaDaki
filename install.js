@@ -42,7 +42,7 @@ module.exports = {
   {
     method: "notify",
     params: {
-      html: "Installation Complete! Click 'Start' to launch the application."
+      html: "Installation Complete! Click 'Start' to launch the application, and setup your model path."
     }
   }
 ]

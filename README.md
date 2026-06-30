@@ -1,11 +1,12 @@
 <div align="center">
-  <img src="icon.png" width="220" alt="Auris-BadBaDaki" />
+  <img src="icon.png" width="180" alt="Auris-BadBaDaki" />
   <h1 align="center">Auris-BadBaDaki</h1>
   <!-- <h4 align="center">Offline audiobook reader.</h4> -->
 </div>
 
 <!-- # Auris-BadBaDaki -->
 [Auris](https://github.com/nikhilprasanth/Auris)-BadBaDaki is Offline audiobook reader for EPUB, PDF, and TXT with local OmniVoice TTS, character-aware voices, per-book narrator control, and synced text highlighting On [Pinokio](https://github.com/pinokiocomputer/pinokio)
+
 
 ## Installation
 One-click (Pinokio) installer:
